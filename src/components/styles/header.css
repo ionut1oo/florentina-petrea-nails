@@ -1,0 +1,55 @@
+.header, .links{
+   display: flex;
+}
+
+.links {
+    justify-content: flex-end;
+}
+
+.pages {
+    transition: text-decoration-color 0.5s ease;
+}
+
+.pages, .pages:hover{
+    color: #f792c0;
+}
+
+.pages:hover {
+    text-decoration: underline;
+    text-decoration-color: #ff2e54;
+}
+
+.logo {
+   height: 50px;
+   width: 60px;
+   
+}
+
+h1 {
+    font-weight: 400;
+}
+
+.flory, .nails {
+    text-shadow: 0.2px 2px white;
+}
+
+.flory {
+    color: #e640a3;
+
+}
+
+.nails {
+    color: #f792c0;
+}
+
+@media screen and (max-width: 480px) {
+    .flory, .nails, .navbar-toggler {
+        display: flex;
+    }
+
+   .navbar-toggler {
+    align-items: flex-end;
+    position: relative;
+    right: 10px;
+   }
+}

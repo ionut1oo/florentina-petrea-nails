@@ -1,0 +1,77 @@
+.prices-text {
+    text-shadow: 1.3px 2px #f792c0;
+}
+
+.intretinere, .constructie, .prices-constructie, .prices-intretinere {
+    display: flex;
+    flex-direction: column;
+}
+
+.advertisement {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+ .constructie, .prices-intretinere {
+    align-items: center;
+}
+
+
+.prices-constructie {
+    align-items: flex-end;
+
+}
+
+.constructie, .prices-constructie, .prices-intretinere, .advertisement  {
+    position: relative;
+}
+
+.prices-intretinere {
+    right: 10rem;
+    bottom: 21rem;
+}
+
+.constructie {
+    bottom: 9rem;
+    left: 5rem;
+}
+
+ .prices-constructie {
+    bottom: 27.5rem;
+    right: 10rem;
+} 
+
+.advertisement {
+    bottom: 20rem;
+}
+
+@media screen and (max-width: 480px) {
+
+    .prices-intretinere {
+        left: 1.2rem;
+        bottom: 19.3rem;
+        align-items: flex-end;
+    }
+
+    .constructie {
+       align-items: flex-start;
+       bottom: 0;
+       left: 0;
+    }
+
+
+    .prices-constructie {
+        bottom: 17.5rem;
+        left: 1.1rem;
+    } 
+
+    .semipermanenta, .intretinere {
+        position: relative;
+        right: 1.2rem;
+    }
+    
+    .advertisement{
+        bottom: 10rem;
+    }
+}

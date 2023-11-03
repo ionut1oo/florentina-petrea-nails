@@ -1,0 +1,41 @@
+.picture-slide {
+    height: 85vh;
+}
+
+.second-pict {
+    height: 39rem;
+    width: 80vw;
+}
+
+.text-slide, .paragraph-slide {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+
+.span-slide {
+    color: #e640a3;
+}
+
+.span2-slide {
+    color: #f792c0;
+}
+
+.paragraph-slide {
+    text-decoration: none;
+    color: #ffd700;
+    font-weight: 600;
+    text-shadow: 0.5px 0.5px black;
+}
+
+@media screen and (max-width:480px) {
+    .picture-slide {
+        height: 45vh;
+    }
+    .paragraph-slide {
+        position: relative;
+        top: 2.8rem;
+    }
+
+}
