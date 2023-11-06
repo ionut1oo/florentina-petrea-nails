@@ -9,7 +9,7 @@ const Header = () => {
           <Container className='bg-body-tertiary navbar' >
               <Navbar.Brand>
               <div className='header'>  
-                 <img className='logo' src='/imgs/logo.jpg' alt='logo' />
+                 <img className='logo' src='imgs/logo.jpg' alt='logo' />
                  <h1 className='ms-2'> <span className='flory'> Florentina </span> <span className='nails'> Petrea Nails </span>  </h1> 
               </div>
               </Navbar.Brand>
