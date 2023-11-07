@@ -1,0 +1,10 @@
+input, textarea, button {
+    border-radius: 5px;
+}
+
+button {
+    height: 3rem;
+    width: 5rem;
+    color: white;
+    background-color: #e640a3;
+}

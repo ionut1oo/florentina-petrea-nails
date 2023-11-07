@@ -18,8 +18,8 @@ const Header = () => {
               <Nav className="links">
                  <Nav.Link className='pages' to='/' as={NavLink}> Home </Nav.Link>
                  <Nav.Link className='pages' to='/prices' as={NavLink}> Prices </Nav.Link>
-                 {/* <Nav.Link className='pages' to='/contact' as={NavLink}> Contact </Nav.Link>
-                 <Nav.Link className='pages' to='/book' as={NavLink}> Book Now </Nav.Link> */}
+                  <Nav.Link className='pages' to='/contact' as={NavLink}> Contact </Nav.Link>
+                  {/* <Nav.Link className='pages' to='/book' as={NavLink}> Book Now </Nav.Link>  */}
               </Nav>
               </Navbar.Collapse>
           </Container>

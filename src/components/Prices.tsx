@@ -5,7 +5,7 @@ import './styles/prices.css';
 const Prices = () => {
     return (
         <Container>
-           <h3 className='text-center mb-5 mt-4 prices-text'> Manichiura </h3>
+           <h3 className='text-center mb-5 mt-4 prices-text'> <strong>  Manichiura </strong>  </h3>
            <h4 className='mb-3 semipermanenta'> Manichiura semipermanenta </h4> 
            <div className='intretinere'>
             <h4 className='ms-5 prices-text'> Intretinere </h4>
