@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/florentina-petrea-nails/static/css/main.e7dcf7db.css",
-    "main.js": "/florentina-petrea-nails/static/js/main.28c5f33a.js",
+    "main.css": "/florentina-petrea-nails/static/css/main.03f841cc.css",
+    "main.js": "/florentina-petrea-nails/static/js/main.3b890edf.js",
     "index.html": "/florentina-petrea-nails/index.html",
-    "main.e7dcf7db.css.map": "/florentina-petrea-nails/static/css/main.e7dcf7db.css.map",
-    "main.28c5f33a.js.map": "/florentina-petrea-nails/static/js/main.28c5f33a.js.map"
+    "main.03f841cc.css.map": "/florentina-petrea-nails/static/css/main.03f841cc.css.map",
+    "main.3b890edf.js.map": "/florentina-petrea-nails/static/js/main.3b890edf.js.map"
   },
   "entrypoints": [
-    "static/css/main.e7dcf7db.css",
-    "static/js/main.28c5f33a.js"
+    "static/css/main.03f841cc.css",
+    "static/js/main.3b890edf.js"
   ]
 }
